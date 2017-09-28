@@ -1,0 +1,131 @@
+\documentclass[letterpaper]{scrartcl}
+\usepackage{nicefrac}
+\usepackage{plainresume3}
+\usepackage{changepage} % used for adjustwidth. Not required if those are removed
+\pagestyle{plain}
+%\author{Keyan Pishdadian}
+
+\begin{document}
+\title{\tt{keyan pishdadian}}
+
+Phone: (774) 273-3047 \hfill Website: \url{keyanp.com} \\
+Email: \href{mailto:kpishdadian@gmail.com}{\nolinkurl{kpishdadian@gmail.com}} \hfill GitHub: \url{github.com/keyan} \\
+LinkedIn: \url{linkedin.com/in/keyanp}
+
+%
+%-------------------------------------------------------------------------------
+%
+
+\mag 1000
+
+%
+%-------------------------------------------------------------------------------
+%
+
+\section*{Experience}
+
+\begin{list1}
+
+\item \begin{tabular1bold} Teachers Pay Teachers, Software Engineer; New York, NY & Sep 2016 -- Present \end{tabular1bold}
+
+  \begin{list2}
+  \item Teachers Pay Teachers is a marketplace for teachers to buy and sell teacher created learning resources, think ``Etsy for Teachers''
+
+  \item Backend system component development \hfill\emph{Elixir/Phoenix}
+
+    \begin{list3}
+    \item Architected and developed a distributed asynchronous task processor backed by Redis
+    \item Redesigned feature toggle updates, decreasing update time from $\sim$10mins to $<$30secs
+    \end{list3}
+
+  \item Created a continuous integration and deployment pipeline for containers deployed to Kubernetes \hfill\emph{Groovy}
+  \item Wrote an internal web application to centralize the deployment process for all applications \hfill\emph{Elixir}
+  \item Automated infrastructure management \hfill\emph{Chef, Terraform}
+  \end{list2}
+
+\item \begin{tabular1bold} Venmo, Software Engineer; New York, NY & May 2015 -- Aug 2016 \end{tabular1bold}
+
+  \begin{list2}
+  \item Worked on the Platform team developing a backend serving millions of users \hfill \emph{Python/Django}
+
+    \begin{list3}
+    \item Redesigned payments news feed to improve performance and allow for future feature development
+    \item Improved system reliability and scalability by optimizing MySQL, Mongo, and Cassandra database access
+    \end{list3}
+
+  \item Improved the state of developer tooling and increased development velocity \hfill \emph{Python, Packer, Bash}
+
+    \begin{list3}
+    \item Owned upkeep and release of development virtual machine
+    \item Eliminated most test state issues by replacing legacy static test fixtures with dynamic data creation
+    \end{list3}
+
+  \item Improved monitoring/logging/alerting systems and managed infrastructure \hfill \emph{Puppet}
+  \item Developed a deep fondness for emojis
+  \end{list2}
+
+\item \begin{tabular1bold} Recurse Center, Recurser; New York, NY &  Jan 2015 -- Mar 2015 \end{tabular1bold}
+
+  \begin{list2}
+  \item A self described ``retreat for programmers'' \href{recurse.com}{(\emph{recurse.com})} where I talked about, read about, and programmed computers. Also played a lot of chess.
+  \end{list2}
+
+\item \begin{tabular1bold} University of Vermont Medical Center, Research Assistant; Burlington, VT & May 2013 -- Dec 2015 \end{tabular1bold}
+
+  \begin{list2}
+  \item Studied genetic regulation of sporulation in the bacterium \emph{Clostridium difficile}
+  \end{list2}
+
+\end{list1}
+
+%
+%-------------------------------------------------------------------------------
+%
+
+\section*{Open Source}
+
+\begin{list1}
+\item
+  \begin{list2}
+  \item Flask developer tool for source code manipulation \hfill \href{https://github.com/pallets/flask-ext-migrate}{\emph{github.com/pallets/flask-ext-migrate}}
+
+  \item Co-maintainer of:
+
+    \begin{list3}
+    \item Elixir job processing system \hfill \href{https://github.com/edgurgel/verk}{\emph{github.com/edgurgel/verk}}
+    \item Command-line tool for rapid large-scale refactoring \hfill \href{https://github.com/facebook/codemod}{\emph{github.com/facebook/codemod}}
+    \item Python web framework \hfill \href{https://github.com/pallets/flask}{\emph{github.com/pallets/flask}}
+    \end{list3}
+
+  \end{list2}
+\end{list1}
+
+%
+%-------------------------------------------------------------------------------
+%
+
+\section*{Education}
+
+\begin{list1}
+  \item\begin{tabular1bold}B.Sc. Microbiology, University of Vermont; Burlington, VT & 2013\end{tabular1bold}
+\end{list1}
+
+%
+%-------------------------------------------------------------------------------
+%
+
+\section*{Publications}
+
+% \begin{adjustwidth}{1.5em}{1.5em}
+\begin{list1}
+\item \textbf{Pishdadian, K.}, Fimlaid, K.A., \& Shen, A., (2015) SpoIIID-mediated regulation of $\sigma$\textsuperscript{K} function during \emph{Clostridium difficile} sporulation. \textbf{\emph{Molecular Microbiology}}, 95:189--208.
+\item Shen, A., Fimlaid, K.A., \& \textbf{Pishdadian, K.}, (2016) Inducing and Quantifying \emph{Clostridium difficile} Spore Formation. \textbf{\emph{Methods in Molecular Biology}}, 1476:129-42.
+\item Ribis, J.W., Ravichandran, P., Putnam, E.E., \textbf{Pishdadian, K.}, \& Shen, A. (2017) The Conserved Spore Coat Protein SpoVM Is Largely Dispensable in \emph{Clostridium difficile} Spore Formation. \textbf{\emph{mSphere}}, e00315-17.
+\end{list1}
+% \end{adjustwidth}
+
+%
+%-------------------------------------------------------------------------------
+%
+
+\end{document}
