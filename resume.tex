@@ -1,4 +1,4 @@
-\documentclass[letterpaper]{scrartcl}
+\documentclass[letterpaper,hidelinks]{scrartcl}
 \usepackage{nicefrac}
 \usepackage{plainresume3}
 \usepackage{changepage} % used for adjustwidth. Not required if those are removed
@@ -6,11 +6,11 @@
 %\author{Keyan Pishdadian}
 
 \begin{document}
-\title{\tt{keyan pishdadian}}
+\title{keyan pishdadian}
 
-Phone: (774) 273-3047 \hfill Website: \url{keyanp.com} \\
-Email: \href{mailto:kpishdadian@gmail.com}{\nolinkurl{kpishdadian@gmail.com}} \hfill GitHub: \url{github.com/keyan} \\
-LinkedIn: \url{linkedin.com/in/keyanp}
+Phone: (774) 273-3047 \hfill Website: \href{http://keyanp.com}{keyanp.com} \\
+Email: \href{mailto:kpishdadian@gmail.com}{kpishdadian@gmail.com} \hfill GitHub: \href{https://github.com/keyan}{github.com/keyan} \\
+LinkedIn: \href{https://linkedin.com/in/keyanp}{linkedin.com/in/keyanp}
 
 %
 %-------------------------------------------------------------------------------
@@ -29,13 +29,10 @@ LinkedIn: \url{linkedin.com/in/keyanp}
 \item \begin{tabular1bold} Lyft, Software Engineer; Seattle, WA & March 2018 -- Present \end{tabular1bold}
 
   \begin{list2}
-  \item Launched Transit, a new feature allowing users to take multi-modal trips mixing Lyft and public transit \hfill\emph{Python}
-
-    \begin{list3}
-    \item Designed, built, and maintained the Transit backend service scaling from 0 to millions of users
-    \end{list3}
-
-  \item Engaged in the full product development cycle on a diverse team as we ideated, designed, built, and field tested our product
+  \item Working on a small and diverse team developing alternative (to cars) transportation options and multimodal journey planning within Lyft
+  \item Shipped transit journey planning, appearing alongside car options in several large metro areas \hfill\emph{Python}
+  \item Designed, developed, and shipped a feature allowing users to perform geospatial search and access realtime nearby transit information. This feature has been highlighted in \href{https://www.wired.com/story/lyft-public-transit-app-zimmer-santa-monica/}{Wired} and \href{https://www.bloomberg.com/news/articles/2019-07-19/lyft-is-adding-new-york-subway-info-to-app-even-as-it-fights-with-the-city}{Bloomberg}. \hfill\emph{Python}
+  \item One of three engineers developing a novel routing engine which can compute multimodal journeys in transit dense regions in $<$50ms. I am personally responsible for developing components to manage transportation network data structures and realtime updates with concurrent access. Our work has resulted in a pending patent. \hfill\emph{Go}
   \end{list2}
 
 \item \begin{tabular1bold} Teachers Pay Teachers, Software Engineer; New York, NY & Sep 2016 -- Feb 2018 \end{tabular1bold}
@@ -61,7 +58,6 @@ LinkedIn: \url{linkedin.com/in/keyanp}
   \item Worked on the Platform team developing a backend serving millions of users \hfill \emph{Python/Django}
 
     \begin{list3}
-    \item Redesigned payments news feed to improve performance and allow for future feature development
     \item Improved system reliability and scalability by optimizing MySQL, Mongo, and Cassandra database access
     \end{list3}
 
@@ -79,7 +75,7 @@ LinkedIn: \url{linkedin.com/in/keyanp}
 \item \begin{tabular1bold} Recurse Center, Recurser; New York, NY &  Jan 2015 -- Mar 2015 \end{tabular1bold}
 
   \begin{list2}
-  \item A self described ``retreat for programmers'' \href{recurse.com}{(\emph{recurse.com})} where I talked about, read about, and programmed computers. Also played a lot of chess.
+  \item A self described ``retreat for programmers'' \href{https://recurse.com}{(\emph{recurse.com})} where I talked about, read about, and programmed computers. Also played a lot of chess.
   \end{list2}
 
 \item \begin{tabular1bold} University of Vermont Medical Center, Research Assistant; Burlington, VT & May 2013 -- Dec 2014 \end{tabular1bold}
@@ -90,27 +86,6 @@ LinkedIn: \url{linkedin.com/in/keyanp}
 
 \end{list1}
 
-%
-%-------------------------------------------------------------------------------
-%
-
-\section*{Open Source}
-
-\begin{list1}
-\item
-  \begin{list2}
-  \item Flask developer tool for source code manipulation \hfill \href{https://github.com/pallets/flask-ext-migrate}{\emph{github.com/pallets/flask-ext-migrate}}
-
-  \item Co-maintainer of:
-
-    \begin{list3}
-    \item Elixir job processing system \hfill \href{https://github.com/edgurgel/verk}{\emph{github.com/edgurgel/verk}}
-    \item Command-line tool for rapid large-scale refactoring \hfill \href{https://github.com/facebook/codemod}{\emph{github.com/facebook/codemod}}
-    \item Python web framework \hfill \href{https://github.com/pallets/flask}{\emph{github.com/pallets/flask}}
-    \end{list3}
-
-  \end{list2}
-\end{list1}
 
 %
 %-------------------------------------------------------------------------------

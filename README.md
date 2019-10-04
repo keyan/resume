@@ -8,5 +8,6 @@ To build from source:
 
 ```
 # install MacTeX from http://www.tug.org/mactex/
-$ pdflatex resume.tex
+
+make build
 ```
